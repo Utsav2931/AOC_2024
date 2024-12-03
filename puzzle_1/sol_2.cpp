@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -32,7 +31,7 @@ int main() {
 	int ans = 0;
 
 	while (getline (InputFile, line)) {
-		cout << line<<endl;
+		// cout << line<<endl;
 		pair<int, int> nums = getValues(line);
 		// cout<<nums.first<<" "<<nums.second<<endl;
 		list1.push_back(nums.first);
